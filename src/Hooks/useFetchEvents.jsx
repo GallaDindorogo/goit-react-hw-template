@@ -10,5 +10,6 @@ export const useFetchEvents = () => {
     fetchEventById(id).then(setEvent);
   }, [id]);
   console.log(event);
+  console.log(event);
   return event;
 };
